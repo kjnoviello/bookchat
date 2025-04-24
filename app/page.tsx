@@ -76,7 +76,7 @@ export default function ChatPage() {
       <div
         className={cn(
           "flex-1 overflow-y-auto p-4",
-          "bg-[url('/placeholder.svg?height=800&width=800')] bg-fixed bg-center bg-cover bg-no-repeat",
+          "bg-[url('/bgopacity.png?height=800&width=800')] bg-fixed bg-center bg-cover bg-no-repeat",
         )}
       >
         <div className="max-w-3xl mx-auto">

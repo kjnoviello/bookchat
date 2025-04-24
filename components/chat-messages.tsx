@@ -35,7 +35,7 @@ export function ChatMessages({ messages, loading }: ChatMessagesProps) {
 
       {loading && (
         <div className="flex justify-start">
-          <div className="max-w-[80%] rounded-lg px-4 py-3 bg-white text-gray-800 border border-gray-200 flex items-center space-x-2">
+          <div className="max-w-[80%] rounded-lg px-4 py-3 bg-red text-gray-800 border border-gray-200 flex items-center space-x-2">
             <Loader2 className="h-4 w-4 animate-spin text-amber-600" />
             <span>Pensando...</span>
           </div>

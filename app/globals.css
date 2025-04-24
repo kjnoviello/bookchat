@@ -46,3 +46,12 @@
   --input: 12 6.5% 15.1%;
   --ring: 20.5 90.2% 48.2%;
 }
+
+.bgimg {
+  background: url("/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  opacity: 0.5;
+}
