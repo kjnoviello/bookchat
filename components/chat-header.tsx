@@ -8,7 +8,7 @@ export function ChatHeader() {
         <BookOpen className="h-6 w-6 text-amber-600" />
         <h1 className="text-xl font-bold text-gray-800">Libro Chat</h1>
       </div>
-      <div className="text-sm text-gray-500 hover:font-bold">
+      <div className="text-sm text-gray-500 hover:hover:text-gray-900">
         <Link href={"https://www.yenny-elateneo.com/"} target="_blank" rel="noopener noreferrer" >
           Asistente de Yenny-El Ateneo
         </Link>

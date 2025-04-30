@@ -6,6 +6,7 @@ import { ChatInput } from "@/components/chat-input"
 import { ChatMessages } from "@/components/chat-messages"
 import type { Message } from "@/lib/types"
 import { cn } from "@/lib/utils"
+import ChatFooter from "@/components/chat-footer"
 
 export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([
@@ -88,6 +89,7 @@ export default function ChatPage() {
           <ChatInput onSend={addMessage} disabled={loading} />
         </div>
       </div>
+      <ChatFooter />
     </div>
   )
 }
